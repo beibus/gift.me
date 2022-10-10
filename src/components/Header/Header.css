@@ -1,0 +1,11 @@
+.btn {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(19, 30, 88);
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 15px 5px #000000; */
+    margin-top: 50px;
+    margin-right: 1150px;
+  }
