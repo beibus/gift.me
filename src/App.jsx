@@ -1,9 +1,10 @@
 import './App.css';
-import About from './components/About/About';
-import CarouselContainer from './components/Carousel/CarouselContainer';
-import { Header } from './components/Header/Header';
+import Header from './components/Header/Header';
 import HeroContainer from './components/Hero/HeroContainer';
 import Wishlist from "./components/Wishlist/Wishlist";
+import CarouselContainer from './components/Carousel/CarouselContainer';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Wishlist/>
       <CarouselContainer/>
       <About/>
+      <Footer/>
     </div>
   );
 }

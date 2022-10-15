@@ -7,7 +7,7 @@ import friends from '../../image/diversity.png'
 import login from '../../image/person.png'
 
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className='header-component'>
       <header className='header-container'>
@@ -37,3 +37,5 @@ export const Header = () => {
 
   )
 }
+
+export default Header
