@@ -1,14 +1,16 @@
 import './App.css';
 import { Header } from './components/Header/Header';
 import HeroContainer from './components/Hero/HeroContainer';
-import Auth from './components/Login';
+import { Header } from "./components/Header/Header";
+import Wishlist from "./components/Wishlist/Wishlist";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <HeroContainer/>
       {/* <Auth></Auth> */}
+      <HeroContainer/>
+      <Wishlist />
     </div>
   );
 }
