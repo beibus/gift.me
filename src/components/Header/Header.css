@@ -1,11 +1,65 @@
+a {
+  text-decoration: none;
+  font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #1F3E6C;
+}
+
 .btn {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(19, 30, 88);
-    border-style: none;
-    padding: 10px;
-    border-radius: 5px;
-    /* box-shadow: 5px 5px 15px 5px #000000; */
-    margin-top: 50px;
-    /* margin-right: 1150px; */
-  }
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(19, 30, 88);
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 5px 5px 15px 5px #000000; */
+  margin-top: 50px;
+  /* margin-right: 1150px; */
+}
+
+.header-component {
+display: flex;
+align-items: center;
+justify-content: center;
+  margin: 0px 50px;
+
+}
+.header-container {
+  height: 20vh;
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+
+.logo-container {
+width: 10%;
+justify-content: space-between;
+}
+
+.menu-container {
+justify-content: space-between;
+width: 30%;
+}
+
+.search-icons-wrapper {
+justify-content: space-between;
+width: 20%;
+}
+
+.icons-container {
+display: flex;
+justify-content: space-between;
+width: 40%;
+}
+
+.logo-container, .menu-container, .search-icons-wrapper {
+display: flex;
+align-items: center;
+}
