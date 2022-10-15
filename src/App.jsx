@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <Header/>
       <HeroContainer/>
+      <Wishlist/>
       <CarouselContainer/>
       <About/>
-      <Wishlist/>
     </div>
   );
 }
