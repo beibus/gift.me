@@ -32,6 +32,7 @@ button {
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
+  height: 45vh;
 }
 
 .hero-title {
@@ -56,7 +57,6 @@ button {
   display: flex;
   justify-content: space-between;
   width: 50%;
-  border: 1px solid black;
 }
 
 .button-enter {
@@ -73,5 +73,14 @@ button {
   width: 120px;
   height: 43px;
   left: 268px;
+  top: 497px;
+}
+
+.register {
+  padding: 12px 8px;
+  gap: 8px;
+  width: 170px;
+  height: 43px;
+  left: 438px;
   top: 497px;
 }
