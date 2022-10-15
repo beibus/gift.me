@@ -1,10 +1,10 @@
 import "./Wishlist.css";
 import React from "react";
-import Product from "../../image/applewatch.png";
 import Data from "../../data.json";
 function Wishlist() {
   return (
     <>
+      <h2 className="wishlist-rus">Лента желаний</h2>
       <div className="wishlist">
         {Data.map((item) => (
           <div className="wishlist-card">
