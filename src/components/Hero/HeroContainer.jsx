@@ -17,7 +17,7 @@ const HeroContainer = () => {
           </div>
 
           <div className='button-login'>
-          <button>Регистрация</button>
+          <button className='register'>Регистрация</button>
           </div>
         </div>
 
