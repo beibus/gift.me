@@ -4,11 +4,11 @@ import { useState } from 'react';
 import './Header.css'
 
 export const Header = () => {
-    const [modalActive, setModalActive] = useState(true);
+    const [modalActive, setModalActive] = useState(false);
   return (
     <header>
         <Modal active={modalActive} setActive={setModalActive} />
-        <button className='btn' onClick={() => setModalActive(true)}>Регистрация</button>
+        <button className='btn' onClick={() => setModalActive(true)}>Registration</button>
     </header>
   )
 }
