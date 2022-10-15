@@ -3,7 +3,7 @@ import React from "react";
 import Data from "../../data.json";
 function Wishlist() {
   return (
-    <>
+    <div className="wish">
       <h2 className="wishlist-rus">Лента желаний</h2>
       <div className="wishlist">
         {Data.map((item) => (
@@ -12,7 +12,7 @@ function Wishlist() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
