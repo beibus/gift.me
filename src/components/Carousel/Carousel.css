@@ -1,7 +1,18 @@
+.carousel {
+    margin-top: 100px;
+}
+
 .carousel-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
 }
+
+.carousel-wrapper {
+    width: 50%;
+}
+
 .carousel-card{
     position: relative;
     margin-top: 200px;
@@ -14,7 +25,7 @@
 .review-container{
     border: 1px solid black;
     width: 330px;
-    height: 350px;
+    height: 250px;
     padding-top: 80px;
 }
 .review-container span{
