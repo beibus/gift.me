@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gift.me/static/css/main.45652436.css",
+    "main.js": "/gift.me/static/js/main.db570967.js",
+    "static/js/787.7c64c386.chunk.js": "/gift.me/static/js/787.7c64c386.chunk.js",
+    "static/media/hero-image.png": "/gift.me/static/media/hero-image.9a697e0b2a2027522a42.png",
+    "static/media/LowerImage.png": "/gift.me/static/media/LowerImage.7826a87c290f2e9e1cad.png",
+    "static/media/Sergei.png": "/gift.me/static/media/Sergei.ee450022e3cae436d78c.png",
+    "static/media/Denis.png": "/gift.me/static/media/Denis.a5d6eac2b5d9b5d6327f.png",
+    "static/media/Nataly.png": "/gift.me/static/media/Nataly.184a6a151ebd927a1893.png",
+    "index.html": "/gift.me/index.html",
+    "main.45652436.css.map": "/gift.me/static/css/main.45652436.css.map",
+    "main.db570967.js.map": "/gift.me/static/js/main.db570967.js.map",
+    "787.7c64c386.chunk.js.map": "/gift.me/static/js/787.7c64c386.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45652436.css",
+    "static/js/main.db570967.js"
+  ]
+}
