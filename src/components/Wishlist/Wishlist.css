@@ -10,12 +10,13 @@
   padding: 30px 40px;
   border-radius: 8px;
   box-shadow: 5px 5px 15px 5px rgba(31, 62, 108, 0.25);
+  cursor: pointer;
 }
 .wishlist-product {
   width: 284px;
   height: 380px;
   object-fit: contain;
-} 
+}
 .wishlist-rus {
   height: 38px;
   font-family: "Raleway";
