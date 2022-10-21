@@ -17,6 +17,7 @@
   height: 380px;
   object-fit: contain;
 }
+
 .wishlist-rus {
   height: 38px;
   font-family: "Raleway";
@@ -30,4 +31,31 @@
   border-bottom: 2px solid rgba(95, 92, 237, 0.407826);
   margin: 0px 100px;
   margin-bottom: 30px;
+}
+
+.hover-text {
+  display: none;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Raleway";
+  line-height: 300px;
+  text-align: center;
+  color: #fff;
+  animation: fade 0.5s linear forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.wishlist-card:hover img {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  object-fit: cover;
 }

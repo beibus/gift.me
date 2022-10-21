@@ -22,6 +22,9 @@ function Wishlist() {
           </div>
         ))}
       </div>
+      <div className="hover-text">
+        <p>Подробнее</p>
+      </div>
     </>
   );
 }

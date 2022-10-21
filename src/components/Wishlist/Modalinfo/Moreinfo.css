@@ -110,6 +110,12 @@
   flex-grow: 0;
   border: none;
   margin-right: 33px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1f3e6c;
 }
 
 .button-heart-block {
