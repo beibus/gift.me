@@ -1,0 +1,47 @@
+.about {
+    padding-top: 100px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-leftside{
+width: 50%;
+margin-left: 10%;
+}
+.about-main-title{
+    margin-top: 100px;
+    color: #1F3E6C;
+}
+.about-leftside-title {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    width: 65%;
+    text-align: left;
+    color: #1F3E6C;
+}
+
+.about-leftside-text{
+    margin-top: 25px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 42px;
+width: 70%;
+text-align: left;
+color: #1F3E6C;
+}
+.about-rightside-images{
+    position: relative;
+    margin-right: 100px;
+}
+.image-backward{
+    position: absolute;
+    bottom: 80px;   
+}

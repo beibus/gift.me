@@ -62,6 +62,7 @@ const HeroContainer = () => {
 
           <div className='button-login'>
 
+
           <button type="primary" onClick={showModalReg}>Регистрация</button>
           </div>
           <div>
@@ -146,6 +147,9 @@ const HeroContainer = () => {
           </Form.Item>
         </Form>
       </Modal>
+
+
+          <button className='register'>Регистрация</button>
 
           </div>
         </div>

@@ -1,0 +1,26 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 179px;
+  padding: 0px 150px;
+  background: linear-gradient(
+    97.32deg,
+    #cfebfb 0%,
+    rgba(5, 130, 200, 0.94) 100%
+  );
+}
+
+.footer-menu-items {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+
+}
+
