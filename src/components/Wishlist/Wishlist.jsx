@@ -7,7 +7,7 @@ function Wishlist() {
   const [modalActive, setModalActive] = useState(false);
 
   return (
-    <>
+    <div className="wish">
       <h2 className="wishlist-rus">Лента желаний</h2>
       <div className="wishlist">
         <Modalinfo active={modalActive} setActive={setModalActive} />
@@ -22,10 +22,12 @@ function Wishlist() {
           </div>
         ))}
       </div>
+
       <div className="hover-text">
         <p>Подробнее</p>
       </div>
     </>
+
   );
 }
 

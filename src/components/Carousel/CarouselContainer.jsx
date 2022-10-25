@@ -15,22 +15,26 @@ const breakPoints = [
 
 function CarouselContainer() {
   return (
-    <div className="carousel">
+
+    <div className='carousel'>
       <h1>Отзывы</h1>
-      <div className="carousel-container">
-        <div className="carousel-wrapper">
+      <div className='carousel-container'>
+        <div className='carousel-wrapper'>
+
           <Carousel breakPoints={breakPoints}>
             <Item>
               <div className="carousel-card">
                 <img className="carousel-img" src={Nataly} alt="" />
                 <div className="review-container">
                   <span>Наталья</span>
+
                   <p>
                     Спасибо за этот сайт. Не смотря на то, что в канун нового
                     года у них такие очереди и так много нервных людей вокруг -
                     дарят внимание, качественно выполняют работу и заряжают
                     праздничным настроением
                   </p>
+
                 </div>
               </div>
             </Item>
@@ -39,6 +43,7 @@ function CarouselContainer() {
                 <img className="carousel-img" src={Sergei} alt="" />
                 <div className="review-container">
                   <span>Сергей</span>
+
                   <p>
                     Ребят! Вы реально сделали очееень крутую тему! Это то, что
                     не хватало! Что может быть лучше настоящих эмоций! Всегда
@@ -46,6 +51,7 @@ function CarouselContainer() {
                     обычному:Духи, вещи, деньги! И именно вы перечеркнули
                     стандарты! Спасибо Вам за вашу идею!
                   </p>
+
                 </div>
               </div>
             </Item>
@@ -54,17 +60,20 @@ function CarouselContainer() {
                 <img className="carousel-img" src={Denis} alt="" />
                 <div className="review-container">
                   <span>Денис</span>
+
                   <p>
                     Рекомендую компанию! У нас уже в классе целая традиция
                     благодаря Дилявер сложилась. На каждое мероприятие именно
                     здесь подарки приобретем. Сладкие подарки в красивой
                     упаковке всегда беспроигрышный вариант.
                   </p>
+
                 </div>
               </div>
             </Item>
           </Carousel>
         </div>
+
       </div>
     </div>
   );

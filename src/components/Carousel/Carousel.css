@@ -1,0 +1,40 @@
+.carousel {
+    margin-top: 100px;
+}
+
+.carousel-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+}
+
+.carousel-wrapper {
+    width: 50%;
+}
+
+.carousel-card{
+    position: relative;
+    margin-top: 200px;
+}
+.carousel-img{
+    position: absolute;
+    right: 110px;
+    top: -50px;
+}
+.review-container{
+    border: 1px solid black;
+    width: 330px;
+    height: 250px;
+    padding-top: 80px;
+}
+.review-container span{
+    
+    font-weight: 500;
+    
+}
+.review-container p{
+    font-weight: 400;
+    color: #1F3E6C;
+    padding-top: 20px;
+}
