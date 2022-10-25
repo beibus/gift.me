@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header } from "./components/Header/Header";
+import Header from "./components/Header/Header";
 import HeroContainer from "./components/Hero/HeroContainer";
 import Wishlist from "./components/Wishlist/Wishlist";
 import CarouselContainer from './components/Carousel/CarouselContainer';
