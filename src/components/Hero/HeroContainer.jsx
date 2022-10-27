@@ -179,7 +179,7 @@ const HeroContainer = () => {
         </div>
       </div>
       <div className="hero-image">
-        <img src={image} alt="" />
+        <img className='hero-image-self' src={image} alt="" />
       </div>
     </div>
   )

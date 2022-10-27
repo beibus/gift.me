@@ -18,7 +18,7 @@ button {
 
 .hero-container {
   display: flex;
-  justify-content: center;
+  margin: 0px 200px;
 }
 
 .hero-content {
@@ -26,6 +26,15 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
+}
+
+.hero-image{
+  width: 50%;
+}
+
+.hero-image-self {
+width: 100%;
 }
 
 .hero-text {
