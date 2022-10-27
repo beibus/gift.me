@@ -170,7 +170,10 @@ const HeroContainer = () => {
 
                 <Form.Item>
                   <Button type="primary" htmlType="submit" onClick={closeModalLog}>
-                    Войти в Айти
+                    Войти
+                  </Button>
+                  <Button htmlType="submit" onClick={showModalReg}>
+                    Зарегистрироваться
                   </Button>
                 </Form.Item>
               </Form>
