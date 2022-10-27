@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gift.me/static/css/main.f90b89a8.css",
-    "main.js": "/gift.me/static/js/main.7c4be12d.js",
+    "main.css": "/gift.me/static/css/main.7098a4a7.css",
+    "main.js": "/gift.me/static/js/main.5837a14e.js",
     "static/js/787.7c64c386.chunk.js": "/gift.me/static/js/787.7c64c386.chunk.js",
     "static/media/hero-image.png": "/gift.me/static/media/hero-image.9a697e0b2a2027522a42.png",
     "static/media/LowerImage.png": "/gift.me/static/media/LowerImage.7826a87c290f2e9e1cad.png",
@@ -10,12 +10,12 @@
     "static/media/Denis.png": "/gift.me/static/media/Denis.a5d6eac2b5d9b5d6327f.png",
     "static/media/Nataly.png": "/gift.me/static/media/Nataly.184a6a151ebd927a1893.png",
     "index.html": "/gift.me/index.html",
-    "main.f90b89a8.css.map": "/gift.me/static/css/main.f90b89a8.css.map",
-    "main.7c4be12d.js.map": "/gift.me/static/js/main.7c4be12d.js.map",
+    "main.7098a4a7.css.map": "/gift.me/static/css/main.7098a4a7.css.map",
+    "main.5837a14e.js.map": "/gift.me/static/js/main.5837a14e.js.map",
     "787.7c64c386.chunk.js.map": "/gift.me/static/js/787.7c64c386.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f90b89a8.css",
-    "static/js/main.7c4be12d.js"
+    "static/css/main.7098a4a7.css",
+    "static/js/main.5837a14e.js"
   ]
 }
