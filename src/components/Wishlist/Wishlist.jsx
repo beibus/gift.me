@@ -16,7 +16,7 @@ function Wishlist() {
     setIsModalOpen(false);
   };
   return (
-    <div className="wish">
+    <div className="wish" id="wishlist">
       <h2 className="wishlist-rus">Лента желаний</h2>
       <div className="wishlist">
         {Data.map((item) => (
