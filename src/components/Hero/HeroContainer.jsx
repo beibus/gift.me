@@ -13,6 +13,7 @@ const HeroContainer = () => {
   const [form] = Form.useForm()
 
   const showModalReg = () => {
+    setIsModalOpenLog(false);
     console.log('show modal');
     setIsModalOpenReg(true);
   };
@@ -23,6 +24,7 @@ const HeroContainer = () => {
   }
 
   const showModalLog = () => {
+    setIsModalOpenReg(false);
     console.log('show modal log');
     setIsModalOpenLog(true);
   };
@@ -34,14 +36,17 @@ const HeroContainer = () => {
 
   const onFinishReg = (values) => {
     setIsModalOpenReg(false);
+    form.resetFields()
   };
 
   const onFinishLog = (values) => {
     setIsModalOpenLog(false);
+    form.resetFields()
   };
 
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
+    form.resetFields()
   };
 
   return (
@@ -59,8 +64,7 @@ const HeroContainer = () => {
             <button className='register' onClick={() => showModalReg()}>Регистрация</button>
           </div>
           <div>
-            <Modal
-              footer={null} title='Регистрация' open={isModalOpenReg} onCancel={closeModalReg}>
+            <Modal footer={null} title='Регистрация' open={isModalOpenReg} onCancel={closeModalReg}>
               <Form
                 form={form}
                 name="basic"
@@ -68,8 +72,7 @@ const HeroContainer = () => {
                 onFinishFailed={onFinishFailed}
                 autoComplete="off"
               >
-                <Form.Item
-                  name="email"
+                <Form.Item name="email"
                   rules={[
                     {
                       required: true,
@@ -83,8 +86,7 @@ const HeroContainer = () => {
                     placeholder="Почта" />
                 </Form.Item>
 
-                <Form.Item
-                  name="password"
+                <Form.Item name="password"
                   rules={[
                     {
                       required: true,
@@ -97,8 +99,7 @@ const HeroContainer = () => {
                     type="password"
                     placeholder="Пароль" />
                 </Form.Item>
-                <Form.Item
-                  name="confirm_password"
+                <Form.Item name="confirm_password"
                   rules={[
                     {
                       required: true,
@@ -129,8 +130,7 @@ const HeroContainer = () => {
               </Form>
             </Modal>
 
-            <Modal
-              footer={null} title='Вход' open={isModalOpenLog} onCancel={closeModalLog}>
+            <Modal footer={null} title='Вход' open={isModalOpenLog} onCancel={closeModalLog}>
               <Form
                 form={form}
                 name="basic"
@@ -138,8 +138,7 @@ const HeroContainer = () => {
                 onFinishFailed={onFinishFailed}
                 autoComplete="off"
               >
-                <Form.Item
-                  name="email"
+                <Form.Item name="email"
                   rules={[
                     {
                       required: true,
@@ -153,8 +152,7 @@ const HeroContainer = () => {
                     placeholder="Почта" />
                 </Form.Item>
 
-                <Form.Item
-                  name="password"
+                <Form.Item name="password"
                   rules={[
                     {
                       required: true,
@@ -175,6 +173,9 @@ const HeroContainer = () => {
                   <Button htmlType="submit" onClick={showModalReg}>
                     Зарегистрироваться
                   </Button>
+                  <div className='forgot-wrapper'>
+                    <a className='forgot-link' href="">Забыли пароль?</a>
+                  </div>
                 </Form.Item>
               </Form>
             </Modal>
