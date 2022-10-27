@@ -54,7 +54,9 @@ const HeroContainer = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h2 className="hero-title">Gift.me</h2>
+          <div className='title-text-wrapper'>
           <h3 className='title-text'>Мы воплощаем в подарках вашу любовь!</h3>
+          </div>
         </div>
         <div className="hero-buttons">
           <div className='button-enter'>
