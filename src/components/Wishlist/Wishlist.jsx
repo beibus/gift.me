@@ -30,7 +30,10 @@ function Wishlist() {
           </div>
         ))}
       </div>
+
+          <div className="">
       <Modal
+      width={650}
       className="modal-content"
         open={isModalOpen}
         onOk={handleOk}
@@ -60,6 +63,7 @@ function Wishlist() {
         </div>
      
       </Modal>
+          </div>
     </div>
   );
 }
