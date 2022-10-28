@@ -55,7 +55,7 @@
   height: 112px;
 }
 .ant-modal-content{
-  width: 800px;
+  /* width: 800px; */
   height: 440px;
   position: absolute;
   top: 0;

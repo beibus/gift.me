@@ -102,7 +102,7 @@ button {
 }
 
 .ant-modal-content {
-  width: 450px !important;
+  /* width: 450px !important; */
   height: 444px !important;
   background: #f1f2f4 !important;
   border-radius: 16px !important;
