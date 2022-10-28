@@ -66,7 +66,7 @@ const HeroContainer = () => {
             <button className='register' onClick={() => showModalReg()}>Регистрация</button>
           </div>
           <div>
-            <Modal footer={null} title='Регистрация' open={isModalOpenReg} onCancel={closeModalReg}>
+            <Modal  width={250} footer={null} title='Регистрация' open={isModalOpenReg} onCancel={closeModalReg}>
               <Form
                 form={form}
                 name="basic"
@@ -132,7 +132,7 @@ const HeroContainer = () => {
               </Form>
             </Modal>
 
-            <Modal footer={null} title='Вход' open={isModalOpenLog} onCancel={closeModalLog}>
+            <Modal  width={250} footer={null} title='Вход' open={isModalOpenLog} onCancel={closeModalLog}>
               <Form
                 form={form}
                 name="basic"
