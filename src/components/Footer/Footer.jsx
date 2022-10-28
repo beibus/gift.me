@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import './Footer.css'
 import telegram from '../../image/telegram.png'
 import insta from '../../image/instagram.png'
@@ -8,10 +9,10 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <div className="footer-menu-items">
-        <a href="">Главная</a>
-        <a href="">О нас</a>
-        <a href="">Служба поддержки</a>
-        <a href="">Контакты</a>
+        <Link activeClass="active" to="home" spy={true} smooth={true}>Главная</Link>
+        <Link to="about-us" spy={true} smooth={true}>О нас</Link>
+        <Link to="home" spy={true} smooth={true}>Служба поддержки</Link>
+        <Link to="home" spy={true} smooth={true}>Контакты</Link>
       </div>
 
       <div className="footer-icons">
