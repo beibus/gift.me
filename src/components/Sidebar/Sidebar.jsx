@@ -16,10 +16,11 @@ function Sidebar() {
         <div>
           <img src={Irina} alt="" />
           <img className="edit" src={Edit} alt="" />
-          <p>
-            <a className="page-wrap-more" href="#">Смотерь еще</a>
-          </p>
+          <p className="page-wrap-more">Смотерь еще</p>
         </div>
+      </div>
+      <div>
+        
       </div>
     </div>
   );

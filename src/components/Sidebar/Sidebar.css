@@ -38,6 +38,10 @@
   font-size: 20px;
   line-height: 23px;
   text-decoration-line: underline;
-
   color: #092a81;
+  margin-top: 29px;
+  cursor: pointer;
+}
+.edit {
+  margin-left: 19px;
 }
