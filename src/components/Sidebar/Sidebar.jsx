@@ -1,44 +1,28 @@
 import React from "react";
-import "../Sidebar/Sidebar.css";
+import Navbar from "../Navbar/Navbar";
+import "./Sidebar.css";
+import Irina from "../../image/irina.png";
+import Edit from "../../image/edit.png";
 
-const Sidebar = () => {
-  const menuItems = [
-    {
-      path: "/",
-      name: "Home Page",
-      icon: "*",
-    },
-    {
-      path: "/",
-      name: "Profile",
-      icon: "*",
-    },
-    {
-      path: "/",
-      name: "My Wishlist",
-      icon: "*",
-    },
-    {
-      path: "/",
-      name: "Favorites",
-      icon: "*",
-    },
-    {
-      path: "/",
-      name: "My Friends",
-      icon: "*",
-    },
-  ];
+function Sidebar() {
   return (
-    <div className="container">
-      <div className="sidebar">
-        <div className="top-section">
-          <h1 className="logo">Logo</h1>
-          <div className="bars">=</div>
+    <div className="Sidebar" id="outer-container">
+      <Navbar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
+      <div id="page-wrap">
+        <div>
+          <h1 className="page-wrap-welcom">Добро пожаловать, Ирина!</h1>
+          <h2 className="page-wrap-wish">Мои желания</h2>
+        </div>
+        <div>
+          <img src={Irina} alt="" />
+          <img className="edit" src={Edit} alt="" />
+          <p>
+            <a className="page-wrap-more" href="#">Смотерь еще</a>
+          </p>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Sidebar;

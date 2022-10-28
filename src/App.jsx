@@ -6,6 +6,11 @@ import CarouselContainer from "./components/Carousel/CarouselContainer";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Sidebar from "./components/Sidebar/Sidebar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Profile from "./components/MyPages/Profile";
+import MyWishlist from "./components/MyPages/MyWishlist";
+import Favorites from "./components/MyPages/Favorites";
+import Friends from "./components/MyPages/Friends";
 
 function App() {
   return (
