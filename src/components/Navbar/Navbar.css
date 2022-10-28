@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 16px;
+  height: 10px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #354250;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: linear-gradient(
+    97.32deg,
+    #bce1f7 0%,
+    rgba(109, 189, 234, 0.94) 100%
+  );
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #cccaba;
+  padding-top: 65px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.bm-item-list img {
+  margin-right: 15px;
+}
+
+/* Individual item */
+.bm-item:hover {
+}
+
+.menu-item {
+  height: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #354250;
+  margin-bottom: 33px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
